@@ -7,12 +7,77 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
+<body class="wallpaper"> <!-- Wallpaper image -->
+
+    <div id = "container"> <!-- Crystals Collector box -->
+        <div id = "row">
+            <div id = "col-md-6">
+                <h1>CrystalsCollector!</h1>
+            </div>
+        </div>
+         <!-- Instructions box-->
+        <div id = "row">
+            <div id = "instruction">
+                <h2>Instructions</h2>
+                <br>
+                <p> You will be given a random number at the start if the game</p>
+                <br>
+                <p>There are four crystals below. By clicking on a crystal you 
+                    will add a specific amount of points to your total score.
+                </p>
+                <br>
+                <p>You win the game by matching your total score to random number, you lose the game if 
+                    your total score goes above the random number.
+                </p>
+                <br>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <br>
+                <p>Each time when the starts, the game will change the values of each crystal</p>
+            </div>
+        </div>
+         <!-- Random # box -->
+            <div id = "row">
+                <div id = "random-number"> # </div>
+                <div id = "col-lg-1"></div>
+                    <div id = "scoreboard">
+                        <h2>Wins</h2>
+                        <h2>Losses</h2>  
+                    </div>
+                    <!-- <h2>Wins</h2> -->
+                    <!-- <h2>Losses</h2> -->
+                <!-- <div id = "scoreboard"> Wins/Losses board -->
+                    <!-- <h2>Wins</h2> -->
+                    <!-- <h2>Losses</h2> -->
+                <!-- </div> -->
+            </div>
+            <!-- crystal images--> <!-- images should be clickable -->
+            <div id = "row">
+                <div id = "crystals">
+                    <img src="assets/images/blue crystal1.png">
+                    <img src="assets/images/green crystal1.png">
+                    <img src="assets/images/purple crystal1.png">
+                    <img src="assets/images/red crystal1.png">
+                </div>
+            </div>
+         <!-- Total score word box -->
+            <div id = "row">
+                <div id="word-box">
+                    <p> Your total score is: </p>
+                </div>
+            </div>
+        <!-- Total score display -->
+            <div id = "row">
+                <div id="total-score">
+                    <p>0</p>
+                </div>
+            </div>
+
+        
+    </div>
 
 
 
 
 
-    
 </body>
 </html>

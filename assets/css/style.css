@@ -1,0 +1,50 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wallpaper {
+    background-image: url("../images/folk-pattern.png");
+    background-size: 20%;
+}
+
+#instruction {
+    color: rgb(5, 44, 3);
+    font-size: 22px;
+    background-color: rgb(243, 182, 154);
+    width: 50%;
+    margin-bottom: 10px;
+}
+#random-number {
+background-color: green;
+font-size: 14px;
+color: black;
+width: 20%;
+}
+#scoreboard { /*wins/losses board */
+    font-size: 15px;
+    background-color: turquoise;
+    color: black;
+    width: 15%;
+    float: inherit;
+}
+h1 { /*CrystalsCollector */
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: orange;
+    width: 23%;
+    margin-bottom: 12px;
+}
+#word-box {
+    background-color: teal;
+    color: white;
+    font-size: 18px;
+    width: 12%;
+    margin-bottom: 8px;
+}
+#total-score {
+    background-color: teal;
+    color: white;
+    font-size: 26px;
+    width: 12%; 
+}
