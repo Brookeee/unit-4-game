@@ -16,35 +16,38 @@ body {
 }
 #random-number {
 background-color: green;
-font-size: 14px;
-color: black;
+font-size: 25px;
+color: purple;
 width: 20%;
+height: 40px;
 }
 #scoreboard { /*wins/losses board */
     font-size: 15px;
     background-color: turquoise;
     color: black;
     width: 15%;
-    float: inherit;
+    margin-left: 189px;
+    height: 97px;
 }
 h1 { /*CrystalsCollector */
     color: white;
     font-size: 40px;
     font-weight: bold;
     background-color: orange;
-    width: 23%;
+    width: 47%;
     margin-bottom: 12px;
 }
 #word-box {
     background-color: teal;
     color: white;
     font-size: 18px;
-    width: 12%;
+    width: 30%;
     margin-bottom: 8px;
 }
 #total-score {
     background-color: teal;
     color: white;
     font-size: 26px;
-    width: 12%; 
+    width: 30%;
+    height: 50px;
 }
