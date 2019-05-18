@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Crystal Collector</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body class="wallpaper"> <!-- Wallpaper image -->
+<body> <!--Wallpaper image -->
 
     <div id = "container"> <!-- Crystals Collector box -->
         <div id = "row">
@@ -37,27 +40,21 @@
         </div>
          <!-- Random # box -->
             <div id = "row">
-                <div id = "random-number"> # </div>
+                <div id = "randomNum">#</div>
                 <div id = "col-lg-1"></div>
-                    <div id = "scoreboard">
-                        <h2>Wins</h2>
+                    <div id = "scoreboard"> <!-- wins/losses font changes-->
+                        <h2 id = "win">Wins:</h2> 
                         <br>
-                        <h2>Losses</h2>  
+                        <h2 id = "loss">Losses:</h2>  
                     </div>
-                    <!-- <h2>Wins</h2> -->
-                    <!-- <h2>Losses</h2> -->
-                <!-- <div id = "scoreboard"> Wins/Losses board -->
-                    <!-- <h2>Wins</h2> -->
-                    <!-- <h2>Losses</h2> -->
-                <!-- </div> -->
             </div>
             <!-- crystal images--> <!-- images should be clickable -->
             <div id = "row">
                 <div id = "crystals">
-                    <img src="assets/images/blue crystal1.png">
-                    <img src="assets/images/green crystal1.png">
-                    <img src="assets/images/purple crystal1.png">
-                    <img src="assets/images/red crystal1.png">
+                    <img id = "blue" src = "assets/images/blue crystal1.png">
+                    <img id = "green" src = "assets/images/green crystal1.png">
+                    <img id = "purple" src ="assets/images/purple crystal1.png">
+                    <img id = "red" src = "assets/images/red crystal1.png">
                 </div>
             </div>
          <!-- Total score word box -->
@@ -67,8 +64,8 @@
                 </div>
             </div>
         <!-- Total score display -->
-            <div id = "row">
-                <div id="total-score">
+            <div id = "button">
+                <div id="score">
                     <p>0</p>
                 </div>
             </div>
