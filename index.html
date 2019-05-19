@@ -1,78 +1,78 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Crystal Collector</title>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-<body> 
-    <!--Wallpaper image -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Crystal Collector</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body> 
+        <!--Wallpaper image -->
 
-    <div id = "container"> <!-- Crystals Collector box -->
-        <div id = "row">
-            <div id = "col-md-6">
+        <div id = "container"> <!-- Crystals Collector box -->
+            <div id = "row">
+                <div id = "col-md-6">
                 <h1>Crystal Collector!</h1>
             </div>
-        </div>
-         <!-- Instructions box-->
-        <div id = "row">
-            <div id = "instruction">
-                <h2>Instructions</h2>
-                <br>
-                <p> You will be given a random number at the start if the game</p>
-                <br>
-                <p>There are four crystals below. By clicking on a crystal you 
-                    will add a specific amount of points to your total score.
-                </p>
-                <br>
-                <p>You win the game by matching your total score to random number, you lose the game if 
-                    your total score goes above the random number.
-                </p>
-                <br>
-                <p>The value of each crystal is hidden from you until you click on it.</p>
-                <br>
-                <p>Each time when the starts, the game will change the values of each crystal</p>
             </div>
-        </div>
-         <!-- Random # box -->
+         <!-- Instructions box-->
             <div id = "row">
-                <div id = "randomNum">#</div>
-                <div id = "col-lg-1"></div>
-                    <div id = "scoreboard"> <!-- wins/losses font changes-->
+                <div id = "instruction">
+                    <h2>Instructions</h2>
+                    <br>
+                    <p> You will be given a random number at the start if the game</p>
+                    <br>
+                    <p>There are four crystals below. By clicking on a crystal you 
+                        will add a specific amount of points to your total score.
+                    </p>
+                    <br>
+                    <p>You win the game by matching your total score to random number, you lose the game if 
+                        your total score goes above the random number.
+                    </p>
+                    <br>
+                    <p>The value of each crystal is hidden from you until you click on it.</p>
+                    <br>
+                    <p>Each time when the starts, the game will change the values of each crystal</p>
+                </div>
+            </div>
+         <!-- Random # box -->
+                <div id = "row">
+                    <div id = "randomNum">#</div>
+                    <div id = "col-lg-1"></div>
+                        <div id = "scoreboard"> <!-- wins/losses font changes-->
                         <h2 id = "win">Wins:</h2> 
                         <br>
                         <h2 id = "loss">Losses:</h2>  
                     </div>
-            </div>
+                </div>
             <!-- crystal images--> <!-- images should be clickable -->
-            <div id = "row">
-                <div id = "crystals">
+                <div id = "row">
+                    <div id = "crystals">
                     <img id = "blue" src = "assets/images/blue crystal1.png">
                     <img id = "green" src = "assets/images/green crystal1.png">
                     <img id = "purple" src ="assets/images/purple crystal1.png">
                     <img id = "red" src = "assets/images/red crystal1.png">
                 </div>
-            </div>
          <!-- Total score word box -->
             <div id = "row">
                 <div id="word-box">
                     <p> Your total score is: </p>
                 </div>
             </div>
-        <!-- Total score display -->
-            <div id = "button">
-                <div id="score">
-                    <p>0</p>
+            <!-- Total score display -->
+                <div id = "button">
+                    <div id="score">
+                        <p>0</p>
+                    </div>
                 </div>
-            </div>
 
-        
-    </div>
-    <script src = "assets/javascript/game.js"></script>
-</body>
+
+                 <script src = "assets/javascript/game.js"></script>   
+        </div>
+        <!-- <script src = "assets/javascript/game.js"></script> -->
+    </body>
 </html>
