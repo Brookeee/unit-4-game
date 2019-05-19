@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+ // global variables
 var randomResult;
 var win = 0;
 var loss = 0;
@@ -8,20 +8,20 @@ var score = 0;
 
 randomResult = parseInt(Math.floor(Math.random() * 101 ) + 19); // random # between 19-120
 $("#randomNum").html(randomResult);
-console.log(randomResult);
+// console.log(randomResult);
     // crystals value # between 1-12
 var blue = parseInt(Math.floor(Math.random() * 12) + 1);
 var green = parseInt(Math.floor(Math.random() * 12) + 1);
 var purple = parseInt(Math.floor(Math.random() * 12) + 1);
 var red = parseInt(Math.floor(Math.random() * 12) + 1);
 
-function validateWin() { // losses/wins not displaying (broken....)
+function validateWin() { 
     if (score === randomResult) {
         win++;
         $("#win").html("win" + win);
     } else if (score > randomResult) {
         loss++;
-        $("#loss").html("loss" + loss);
+        $("#loss").html("loss" + loss);;
     }
 };
 
@@ -65,20 +65,19 @@ $("#blue").on("click", function() {
         }
     });
 
-    function gameOver () {
-        score = 0; 
-        $("#score").html(score);
-        randomResult = parseInt(Math.floor(Math.random) * 101) + 19;
-        $("#randomNum").html(randomResult);
-    };
+    // function gameReset () { //game reset
+    //     score = 0; 
+    //     $("#score").html(score);
+    //     randomResult = parseInt(Math.floor(Math.random) * 101) + 19;
+    //     $("#randomNum").html(randomResult);
+    // };
 
     
 });
 
 
+//TODO/correct: Crystals have a new value for player to equal to. User's score resets**
+// TODO/correct: New random number to generate afer loss/win **
 
-
-
-//Crystals have a new value for player to equal to. User's score resets
 
 

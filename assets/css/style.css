@@ -3,11 +3,6 @@ body {
     background-image: url("../images/folk-pattern.png");
 }
 
-/* .wallpaper { */
-    /* background-image: url("../images/folk-pattern.png");
-    background-size: 20%;
-} */
-
 #instruction {
     color: rgb(5, 44, 3);
     font-size: 22px;
@@ -19,7 +14,7 @@ body {
 background-color: green;
 font-size: 25px;
 color: purple;
-width: 20%;
+width: 15%;
 height: 40px;
 }
 #scoreboard { /*wins/losses board */
@@ -29,26 +24,31 @@ height: 40px;
     width: 15%;
     margin-left: 189px;
     height: 97px;
+    margin: 10px;
 }
 h1 { /*CrystalsCollector */
     color: white;
     font-size: 40px;
     font-weight: bold;
     background-color: orange;
-    width: 30%;
+    width: 20%;
     margin-bottom: 12px;
 }
 #word-box {
     background-color: teal;
     color: white;
     font-size: 18px;
-    width: 30%;
+    width: 15%;
     margin-bottom: 8px;
 }
 #score {
     background-color: teal;
     color: white;
     font-size: 26px;
-    width: 30%;
+    width: 15%;
     height: 50px;
+}
+#crystals {
+    padding: 2px;
+    margin: 4px;
 }
